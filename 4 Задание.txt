@@ -1,0 +1,12 @@
+check = 1
+while check == 1:
+    a = int(input ('Введите первое число = '))
+    b = int(input ('Введите второе число = '))
+    c = int(input ('Введите третье число = '))
+    kolvo = 0
+    list = [a,b,c]
+    for i in list:
+        if i > 0:
+            kolvo+=1 
+    print (kolvo)
+    check = int(input ('Если хотите продолжить введите 1 = '))
